@@ -20,7 +20,7 @@ body {
     list-style-position: inside;
 }
 
-#first, #second, #third {
+.recipe-item {
     background-color: #e78fb3; /* soft pinkish-purple */
     padding: 10px;
     margin: 10px;

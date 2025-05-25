@@ -1,26 +1,31 @@
-body{
-    background-color: rgb(145, 165, 119);
+body {
+    background-color: #d9e4dd; /* soft sage green */
 }
-.heading{
-    background-color: rgb(213, 230, 118);
+
+.heading {
+    background-color: #fce3ec; /* soft blush pink */
     padding: 12px;
     text-align: center;
-    margin: auto 10px;
+    margin: auto auto;
+    font-weight: bold;
+    font-size: 1.5em;
 }
-.subheading{
-    background-color: rgb(152, 194, 174);
-    padding:10px;
-    margin: 50px 180px;
+
+.subheading {
+    background-color: #f8b7cd; /* lighter rose pink */
+    padding: 10px;
+    margin: 180px;
     line-height: 30px;
     font-size: large;
     list-style-position: inside;
 }
-#first{
 
+#first, #second, #third {
+    background-color: #e78fb3; /* soft pinkish-purple */
+    padding: 10px;
+    margin: 10px;
 }
-#second{
-
-}
-#third{
-
+a {
+    color: #6c1e4e; /* deep berry tone that pairs well */
+    text-decoration: none;
 }
